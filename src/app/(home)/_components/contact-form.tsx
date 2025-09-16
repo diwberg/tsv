@@ -31,12 +31,12 @@ export function ContactForm() {
     };
 
     return (
-    <section className="py-10 bg-primary text-primary-foreground">
+    <section className="py-10 bg-muted text-primary">
         <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-2">
             Entre em Contato
             </h2>
-            <p className="text-base mb-8 text-primary-foreground/90 max-w-md mx-auto">
+            <p className="text-base mb-8 text-primary/90 max-w-md mx-auto">
             Nossa equipe de engenheiros, tecnólogos e técnicos altamente capacitados 
             está pronta para atender sua empresa.
             </p>
@@ -82,7 +82,7 @@ export function ContactForm() {
                         )}
                     />
                     <Button type="submit" 
-                    className="bg-background text-primary px-8 py-3 rounded-lg font-semibold hover:bg-background/90 transition-colors">
+                    className="px-8 py-3 rounded-lg font-semibold hover:bg-background/90 hover:text-secondary transition-colors">
                         Enviar
                     </Button>
                 </form>
