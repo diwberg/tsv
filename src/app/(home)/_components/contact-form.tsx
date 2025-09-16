@@ -31,12 +31,12 @@ export function ContactForm() {
     };
 
     return (
-    <section className="py-10 bg-muted text-primary">
+    <section className="py-10 bg-muted">
         <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-2">
             Entre em Contato
             </h2>
-            <p className="text-base mb-8 text-primary/90 max-w-md mx-auto">
+            <p className="text-base mb-8 max-w-md mx-auto">
             Nossa equipe de engenheiros, tecnólogos e técnicos altamente capacitados 
             está pronta para atender sua empresa.
             </p>
